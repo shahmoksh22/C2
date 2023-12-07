@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    clrscr();
+    int x,y,z;
+    printf("Value Calculator for (x+y)^3 \n" );
+    printf("Enter Value of X : ");
+    scanf("%d",&x);
+    printf("Enter Value of Y : ");
+    scanf("%d",&y);
+    z=((x*x*x)+(3*x*x*y)+(3*x*y*y)+(y*y*y));
+    printf("Value is %d",z);
+    getch();
+}

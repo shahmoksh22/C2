@@ -1,0 +1,53 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int i1,i2,i3,i4,i5,a;
+int q1,q2,q3,q4,q5;
+int p1,p2,p3,p4,p5;
+clrscr();
+printf("Welcome to Billing System\n");
+printf("Press 1 for CPU\nPress 2 for Monitor\nPress 3 for Keyboard\nPress 4 for Mouse\nPress 5 for Speaker\nPress 0 To Exit\n");
+scanf("%d",&a);
+if(a==0)
+{
+clrscr();
+printf("Thanks For Visiting...");
+}
+else
+{
+switch(a)
+	{
+	case 1:
+		printf("Cpu has been Selected Please Enter No. of Quantity : ");
+		scanf("%d",&q1);
+		break;
+	case 2:
+		printf("Monitor has been Selected Please Enter No. of Quantity : ");
+		scanf("%d",&q2);
+		break;
+
+	case 3:
+		printf("Keyboard has been Selected Please Enter No. of Quantity : ");
+		scanf("%d",&q3);
+		break;
+
+	case 4:
+		printf("Mouse has been Selected Please Enter No. of Quantity : ");
+		scanf("%d",&q4);
+		break;
+
+	case 5:
+		printf("Speaker has been Selected Please Enter No. of Quantity : ");
+		scanf("%d",&q5);
+		break;
+
+	default : printf("Invalid Item");
+		break;
+	}
+
+
+}
+getch();
+}

@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int us,pw,user,pass;
+user=123;
+pass=456;
+clrscr();
+printf("Enter the username : ");
+scanf("%d",&us);
+printf("Enter the Password : ");
+scanf("%d",&pw);
+	if(us==user)
+	{
+		if(pw==pass)
+		{
+		 printf("login is successful");
+		}
+		else
+		{
+		 printf("Password is incorrect");
+		}
+	}
+	else
+	{
+	printf("Username is Incorrect");
+	}
+
+getch();
+}

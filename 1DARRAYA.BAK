@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+float a[10],i,j,avg=0;
+ clrscr();
+	   printf("Please Enter No. of Entries you want : ");
+	   scanf("%f",&j);
+	   for(i=0;i<j;i++)
+	   {
+	   printf("Enter %.0f Value : ",i+1);
+	   scanf("%f",&a[i]);
+	   }
+	   for(i=0;i<j;i++)
+	   {
+	   avg=avg+a[i];
+	   }
+	   avg=avg/j;
+	   printf("Avg is %f",avg);
+ getch();
+
+}
